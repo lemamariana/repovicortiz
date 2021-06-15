@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mariana</h1>
 <h3 align="center">A passionate frontend developer from Uruguay</h3>
 
-- 🔭 I’m currently working on [mi first project](https://reposteriavictoriaortiz.000webhostapp.com/)
+- 🔭 I’m currently working on [my first project](https://reposteriavictoriaortiz.000webhostapp.com/)
 
 - 🌱 I’m currently learning **POO**
 
