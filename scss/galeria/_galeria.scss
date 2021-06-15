@@ -1,0 +1,16 @@
+.galeria{
+    
+    
+
+    img{
+        
+        border-radius: 3vw;
+        box-shadow: 5vw rgba(0, 0, 0, 0.8);
+        transition: all 0.5s ease-in;
+            
+        &:hover{
+            transform: scale(1.3);
+        }
+    }
+}
+

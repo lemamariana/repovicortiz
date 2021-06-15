@@ -1,0 +1,36 @@
+@import'../variables';
+
+#listaproductos{
+    background-color: rgba(20, 17, 20, 0.5);
+    color: #FCD9CB;
+    border-radius: 3vw;
+    font-size: 1.4vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 0.1vw;
+    border-color: rgba(187,70,116, 0.5);
+
+    ul{  
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        text-align: center;
+
+        h3{
+            background-color: rgba(187,70,116, 0.5);
+            animation: backInRight 2s;
+        }
+
+        .lista{
+            background-color: rgba(20, 17, 20, 0.5);
+            padding:1.5vh;
+
+            li{
+                list-style-type: none;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.9vw;
+            }
+        }
+    }
+}
+

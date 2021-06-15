@@ -1,0 +1,299 @@
+
+
+/*media para pantallas grandes y medianas-grandes*/
+@media only screen and (min-width:720px) {
+
+.margin0padding0{
+    margin: 0;
+    padding: 0;
+}
+
+/*ocutlar contenido -MOBILE*/
+.mobile{
+    display: none;
+}
+
+/*estilos -HEADER*/
+
+.menuweb{
+    margin: 1vh;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.logo{ 
+    display: block;
+    text-align: center;
+}
+
+header a img{ 
+    height: 12vh;
+    width: 12vh;
+    margin: 1vh;
+}
+
+/*estilos -MENÚ*/
+.menu{ 
+    margin: 0.3vh 0 0.1vh 0;
+    padding:0 17vw;
+    font-size: 1em;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+nav li a:hover{ 
+    background-color: rgba(20, 17, 20, 0.5);
+    color:#faeae3;   
+}
+
+.subnav {
+    padding:0;
+    font-size: inherit;
+    text-transform: inherit;
+    position:relative;
+    display: block;
+}
+
+.subnav-content{
+    padding:0;
+    display:none;
+    position:absolute;
+    z-index: 999;
+    background-color: inherit;
+    width: 100%;
+}
+
+.subnav:hover .subnav-content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(20, 17, 20, 0.5);
+    
+}
+
+.subnav-content a {
+    color: white;
+}
+
+/*estilos- HOME*/
+.home{
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+}
+
+.home h1{ /*titulo*/
+    position: absolute;
+    right: 27%;
+    top:50%;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Meddon', cursive;
+    white-space: pre-line;
+    font-size: 5.8vh;
+    text-align: center;
+    z-index: 15;
+}
+
+/*estilos -FOOTER*/
+footer .web{
+    height: 6vh;
+    margin: 2vh 0 7vh;
+    padding: 0 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 4.5vh;
+    background-color: rgba(156, 55, 96, 0.2);
+}
+
+footer .web a:hover{
+    color:#faeae3;
+}
+
+
+/*estilos -CONOCENOS*/
+#conocenos .web{
+    margin: 0 10vw;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+}
+
+/*estilo de textos -CONOCENOS*/
+.web-texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    padding: 0 3vw;
+}
+
+#conocenos h2{
+    color: #342A32;
+    font-weight: bold;
+    font-size: 2em ;
+}
+
+#conocenos p{
+    font-size: 1em;
+}
+
+
+/*estilo imagen - CONOCENOS*/
+.web-img{
+    justify-content: center;
+    margin: 10vh 0;
+    width: 45vw;
+    border-radius: 3vw;
+    box-shadow: 1vw 1vw 2vw #342A32;
+}
+
+
+/*estilos -PRODUCTOS*/
+.flecha-arriba{
+    position:fixed;
+    bottom: 5.1vh;
+    right: 4.5vw;
+    color: #342A32;
+    font-size: 3.5rem;
+}
+
+}
+
+/*media para pantallas chicas*/
+@media only screen and (max-width:719px){
+
+    *{/*reseteo -HTML*/
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    /*ocultar contenido-WEB*/
+    .web{
+        display: none;
+    }
+    
+    /*estilos -HEADERmobile*/ 
+
+    header{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255,255,255,0.5); 
+    }
+
+    header img{
+        padding:0;
+        height: 10vh;
+        width: 10vh; 
+        justify-content: flex-end;
+    }
+    .subnav-content-mobile{
+        display: none;      
+        position:absolute;
+        padding:0;
+        background-color: rgb(255, 255, 255, 0.5);
+        height: 85vh;
+        width: 25vw;
+        top:15vh;
+        left:0;
+        z-index: 1000;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    .menumobile ul{
+        padding:0;
+    }
+
+    .menumobile li{
+        list-style-type: none;
+    }
+
+    .menumobile:hover .subnav-content-mobile{
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .subnav-content-mobile li a:hover{
+        background-color: rgba(20, 17, 20, 0.3);
+        color:#faeae3;
+    }
+    
+    .menumobile{
+        padding: 0;
+        height: 15vh;
+        display: flex;
+        position: relative;
+        width: 25vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*estilos -FOOTERmobile*/
+    footer .mobile{
+        height: 15vh;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.5em;       
+    }
+
+    footer a{
+        height: 5vh;
+        width: 5vh;
+        margin: 2vw;
+        padding: 0.25em 0.3em 0.3em 0.3em;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home{
+        height: 70vh !important;
+    }
+
+    .home h1{ 
+        position: absolute;
+        top:6vh;
+        right: 3vw;
+        color:#342A32;
+        font-family: 'Meddon', cursive;
+        white-space: pre-line;
+        font-size: 1.5rem;
+    }
+
+    /*estilos -CONOCENOSmobile*/
+    
+    #conocenos{
+        height: 70vh;
+        width: 70vw;
+        margin:0 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobile-texto{
+        margin: 3vh 0 0 0;
+        justify-content: center;
+        text-align: center;
+        width: 65vw;
+        font-size:0.9em;
+    }
+    
+    .mobile-img{
+        width: 65vw;
+        justify-content: center;
+        border-radius: 3vw;
+        box-shadow: 1vw 1vw 2vw #342A32;
+    }
+
+}
