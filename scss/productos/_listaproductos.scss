@@ -1,8 +1,8 @@
 @import'../variables';
 
 #listaproductos{
-    background-color: rgba(20, 17, 20, 0.5);
-    color: #FCD9CB;
+    background-color: rgba(nth($color, 1),0.8);
+    color: nth($color, 4 );
     border-radius: 3vw;
     font-size: 1.4vw;
     text-align: center;
@@ -19,11 +19,14 @@
         h3{
             background-color: rgba(nth($list: $color, $n:6),0.5);
             animation: backInRight 2s;
+            margin: 0;
+            border-radius: 3vw;
         }
 
         .lista{
             background-color: rgba(nth($list: $color, $n:1),0.5);
             padding:1.5vh;
+            border-radius: 3vw;
 
             li{
                 list-style-type: none;

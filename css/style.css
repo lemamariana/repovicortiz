@@ -369,8 +369,8 @@ header a, footer a {
 
 /*variables utilizadas*/
 #listaproductos {
-  background-color: rgba(20, 17, 20, 0.5);
-  color: #FCD9CB;
+  background-color: rgba(20, 17, 20, 0.8);
+  color: #fcd9cb;
   border-radius: 3vw;
   font-size: 1.4vw;
   text-align: center;
@@ -387,10 +387,13 @@ header a, footer a {
 #listaproductos ul h3 {
   background-color: rgba(187, 70, 116, 0.5);
   animation: backInRight 2s;
+  margin: 0;
+  border-radius: 3vw;
 }
 #listaproductos ul .lista {
   background-color: rgba(20, 17, 20, 0.5);
   padding: 1.5vh;
+  border-radius: 3vw;
 }
 #listaproductos ul .lista li {
   list-style-type: none;
