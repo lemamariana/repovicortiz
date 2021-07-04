@@ -19,7 +19,7 @@ footer {
             
             a{
                 &:hover{
-                color: rgba(187, 70, 116, 1);
+                color: nth($list: $color, $n:6);
             }
         }
         }

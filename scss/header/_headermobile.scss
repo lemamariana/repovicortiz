@@ -14,7 +14,8 @@ header{
 
         height: 15vh;
         @include column (flex-start);
-        background-color: rgba(255,255,255,0.7); 
+        background-color: rgba(nth($list: $color, $n:5),0.7);
+        
 
         .menumobile{
             padding: 0;
@@ -43,7 +44,7 @@ header{
                 display: none;      
                 position:absolute;
                 padding:0;
-                background-color: rgb(255, 255, 255, 0.7);
+                background-color: rgba(nth($list: $color, $n:5),0.7);
                 height: 85vh;
                 width: $base-wd;
                 top:15vh;
@@ -59,8 +60,8 @@ header{
                         list-style-type: none;
                         a{ 
                             &:hover{
-                                background-color: rgba(20, 17, 20, 0.8);
-                                color:#faeae3;
+                                background-color: rgba(nth($list: $color, $n:1),0.8);
+                                color: rgba(nth($list: $color, $n:4), 0.6);
                             }
                         }
                     }
@@ -71,7 +72,7 @@ header{
                 position: absolute;
                 top:6vh;
                 right: 3vw;
-                color:#342A32;
+                color: nth($list: $color, $n:2 );
                 font-family: 'Meddon', cursive;
                 white-space: pre-line;
                 font-size: 1.5rem;

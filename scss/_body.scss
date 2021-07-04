@@ -8,7 +8,7 @@ html{
 body { /*estilo -BODY*/
     margin: 0;
     padding: 0;
-    background-color: rgba(187,70,116, 0.2);
+    background-color: rgba(nth($color, $n:6),0.2);
     height: $base-hg;
     width: $base-wd;
     font-family:'Montserrat', sans-serif;
@@ -17,7 +17,7 @@ body { /*estilo -BODY*/
 }
 
 header a, footer a { /*estilo -ENLACES*/
-    color: #342A32;
+    color: nth($color,2);
     text-decoration: none;
 
 }

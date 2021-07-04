@@ -17,14 +17,14 @@ footer {
             width: 5vh;
             margin: 2vw;
             padding: 0.25em 0.3em 0.3em 0.3em;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(nth($list: $color, $n:5),0.8);
             border-radius: 3px;
             text-decoration: none;
-            color: #342A32;
+            color: nth($list: $color, $n:2);
             @include flex (center);
         
             &:hover{
-                color: rgba(255, 255, 255, 0.8);
+                color: rgba(nth($list: $color, $n:5),0.8); 
             }
         }
 

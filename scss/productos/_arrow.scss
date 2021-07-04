@@ -4,6 +4,6 @@
     position:fixed;
     bottom: 5.1vh;
     right: 4.5vw;
-    color: #342A32;
+    color: nth($list: $color, $n:2 );
     font-size: 3.5rem;
 }

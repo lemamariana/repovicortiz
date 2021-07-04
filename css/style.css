@@ -69,7 +69,7 @@ body {
 
 header a, footer a {
   /*estilo -ENLACES*/
-  color: #342A32;
+  color: #342a32;
   text-decoration: none;
 }
 
@@ -136,13 +136,13 @@ header a, footer a {
   }
   header .menumobile nav ul li a:hover {
     background-color: rgba(20, 17, 20, 0.8);
-    color: #faeae3;
+    color: rgba(252, 217, 203, 0.6);
   }
   header .menumobile h1 {
     position: absolute;
     top: 6vh;
     right: 3vw;
-    color: #342A32;
+    color: #342a32;
     font-family: "Meddon", cursive;
     white-space: pre-line;
     font-size: 1.5rem;
@@ -193,7 +193,7 @@ header a, footer a {
   header .menuweb nav ul li a:hover {
     transform: scale(2);
     background-color: rgba(20, 17, 20, 0.5);
-    color: #faeae3;
+    color: rgba(252, 217, 203, 0.6);
   }
   header .menuweb nav ul .subnav {
     padding: 0;
@@ -235,7 +235,7 @@ header a, footer a {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3px;
     text-decoration: none;
-    color: #342A32;
+    color: #342a32;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -323,7 +323,7 @@ header a, footer a {
 }
 #conocenos .web-texto h2 {
   animation: pulse 2s;
-  color: #342A32;
+  color: #342a32;
   font: bold 2em;
 }
 #conocenos .web-texto p {
@@ -334,7 +334,7 @@ header a, footer a {
   justify-content: center;
   margin: 5vh 0;
   border-radius: 3vw;
-  box-shadow: 1vw 1vw 2vw #342A32;
+  box-shadow: 1vw 1vw 2vw #342a32;
 }
 #conocenos .item2-4 {
   flex-direction: row-reverse;
@@ -347,12 +347,11 @@ header a, footer a {
   justify-content: center;
   margin: 5vh 0;
   border-radius: 3vw;
-  box-shadow: -1vw 0 2vw 1vw #342A32;
+  box-shadow: -1vw 0 2vw 1vw #342a32;
 }
 
 .galeria img {
   border-radius: 3vw;
-  box-shadow: 5vw rgba(0, 0, 0, 0.8);
   transition: all 0.5s ease-in;
 }
 .galeria img:hover {
@@ -364,7 +363,7 @@ header a, footer a {
   position: fixed;
   bottom: 5.1vh;
   right: 4.5vw;
-  color: #342A32;
+  color: #342a32;
   font-size: 3.5rem;
 }
 
@@ -416,7 +415,7 @@ header a, footer a {
   margin: 0;
   display: block;
   text-align: center;
-  color: #FCD9CB;
+  color: #fcd9cb;
 }
 #productos .group-prod .subsect-prod .prod-text h3 {
   animation: slideInUp 2s;
@@ -439,7 +438,7 @@ header a, footer a {
   font-family: "Roboto", sans-serif;
 }
 #productos .group-prod .subsect-prod .prod-text ul li a {
-  color: #FCD9CB;
+  color: #fcd9cb;
   font-size: 1.5vw;
   text-decoration: bold;
   font-family: "Roboto", sans-serif;

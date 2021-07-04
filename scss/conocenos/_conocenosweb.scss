@@ -12,12 +12,13 @@
       
         h2{
             animation: pulse 2s;
-            color: #342A32;
+            color: nth($list: $color, $n:2);
             font: bold 2em;   
         }
         
         p{
             font-size: 1em;
+            
         }
     }
     .web-img{
@@ -25,7 +26,7 @@
         justify-content: center;
         margin: 5vh 0;
         border-radius: 3vw;
-        box-shadow: 1vw 1vw 2vw #342A32;
+        box-shadow: 1vw 1vw 2vw nth($list: $color, $n:2);
     }
     .item2-4{
         flex-direction: row-reverse;
@@ -40,7 +41,7 @@
         justify-content: center;
         margin: 5vh 0;
         border-radius: 3vw;
-        box-shadow: -1vw 0 2vw 1vw #342A32;
+        box-shadow: -1vw 0 2vw 1vw nth($list: $color, $n:2);
     }
 
 }
