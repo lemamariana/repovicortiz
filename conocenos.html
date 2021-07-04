@@ -17,6 +17,7 @@
     <meta property="og: lolale" content="“en_ES”"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -95,7 +96,7 @@
 
     <section id=conocenos>
         <!--En esta seccion iria una foto de la emprendedora y un breve texto de como surgio el emprendimiento-->
-        <div class>
+        <div class data-aos="fade-up" data-aos-duration="3000">
             <div class="row d-flex justify-content-center w-100 m-0 p-3">           
                 <img class="web-img col-md-5 col-sm-10" src="images/reposterotrabajando.jpg" loading= lazy alt="Repostero trabajando">
                 <div class="web-texto col-md-5 col-sm-10">
@@ -106,7 +107,7 @@
                 </div>
                 
             </div> 
-            <div class="row item2-4 justify-content-center w-100 m-0 p-3">    
+            <div class="row item2-4 justify-content-center w-100 m-0 p-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-offset="400">    
                 <img class="web-img-2-4 col-md-5 col-sm-10" src="images/materiasprimas.jpg" loading= lazy alt="Imagen de materias primas">       
                 <div class="web-texto col-md-5 col-sm-10 ">
                     
@@ -118,7 +119,7 @@
                 </div>
                 
             </div> 
-            <div class="row justify-content-center w-100 m-0 p-3">    
+            <div class="row justify-content-center w-100 m-0 p-3" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="500">    
                 <img class="web-img col-md-5 col-sm-10" src="images/delivery.jpg" loading= lazy alt="Imagen del delivery entregando el producto al cliente">       
                 <div class="web-texto col-md-5 col-sm-10 ">
                     
@@ -129,7 +130,7 @@
                 </div>
                 
             </div> 
-            <div class="row item2-4 justify-content-center w-100 m-0 p-3">    
+            <div class="row item2-4 justify-content-center w-100 m-0 p-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-offset="1000">    
                 <img class="web-img-2-4 margin0padding0 col-md-5 col-sm-10" src="images/express.jpg" loading= lazy alt="Imagen de mano con cronómetro">       
                 <div class="web-texto col-md-5 col-sm-10">
                     <h2>Pedidos especiales</h2>
@@ -172,6 +173,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
