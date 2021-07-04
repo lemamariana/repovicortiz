@@ -11,7 +11,7 @@
             position: absolute;
             right: 27%;
             top:50%;
-            color: rgba(nth($list: $color, $n:5),0.8);
+            color: rgba(nth($color, 5),0.8);
             font-family: 'Meddon', cursive;
             white-space: pre-line;
             font-size: 1.8em;

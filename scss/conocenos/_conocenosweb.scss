@@ -26,7 +26,7 @@
         justify-content: center;
         margin: 5vh 0;
         border-radius: 3vw;
-        box-shadow: 1vw 1vw 2vw nth($list: $color, $n:2);
+        box-shadow: 1vw 1vw 2vw nth($color, 2);
     }
     .item2-4{
         flex-direction: row-reverse;
@@ -41,7 +41,7 @@
         justify-content: center;
         margin: 5vh 0;
         border-radius: 3vw;
-        box-shadow: -1vw 0 2vw 1vw nth($list: $color, $n:2);
+        box-shadow: -1vw 0 2vw 1vw nth($color, 2);
     }
 
 }

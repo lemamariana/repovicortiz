@@ -8,9 +8,9 @@
 
             margin: 0.6vw 14vw;
             padding: 2vw;
-            background-color: rgba(nth($list: $color, $n:1),0.5);
+            background-color: rgba(nth($color, 1),0.5);
             border-radius: 3vw;
-            border: solid nth($list: $color, $n:1 ) 0.5px;
+            border: solid nth($color, 1 ) 0.5px;
 
             img{
                 width: 25vw; 
@@ -23,7 +23,7 @@
                 margin: 0;
                 display: block;
                 text-align: center;
-                color: nth($list: $color, $n:4);
+                color: nth($color, 4);
                 
                 h3{
                     animation: slideInUp 2s;
@@ -47,7 +47,7 @@
                         list-style-type: none;
                         font-family: 'Roboto', sans-serif;
                         a{
-                            color: nth($list: $color, $n:4);
+                            color: nth($color, 4);
                             font-size: 1.5vw;
                             text-decoration: bold;
                             font-family: 'Roboto', sans-serif;
