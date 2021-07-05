@@ -405,7 +405,7 @@ header a, footer a {
 #listaproductos ul .lista li {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
-  font-size: 1.9vw;
+  font-size: 2em;
 }
 
 /*variables utilizadas*/
@@ -433,7 +433,7 @@ header a, footer a {
 }
 #productos .group-prod .subsect-prod .prod-text p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.9vw;
+  font-size: 1.1em;
 }
 #productos .group-prod .subsect-prod .prod-text ul {
   margin: 0;
@@ -449,7 +449,7 @@ header a, footer a {
 }
 #productos .group-prod .subsect-prod .prod-text ul li a {
   color: #fcd9cb;
-  font-size: 1.5vw;
+  font-size: 1.4em;
   text-decoration: bold;
   font-family: "Roboto", sans-serif;
 }
