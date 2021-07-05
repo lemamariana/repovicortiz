@@ -1,0 +1,8 @@
+@mixin transform ($kits){
+    -webkit-transform: $kits;
+    -o-transform: $kits;
+    -moz-transform: $kits;
+    -ms-transform: $kits;
+}
+
+
